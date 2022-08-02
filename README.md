@@ -1,6 +1,6 @@
 # Math Magicians
 
-> The amazing Math Magicians project will let you perform any basic 
+> The amazing Math Magicians project will let you perform any basic
 > math calculations you want to perform.
 
 ## Built With
