@@ -2,21 +2,8 @@
 /* eslint-disable max-len */
 
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-import '../index.css';
-
-const buttonStyle = (bgColor, w) => ({
-  width: w == null ? '100px' : w,
-  height: '50px',
-  padding: '5px',
-  fontSize: '24px',
-  textAlign: 'right',
-  backgroundColor: bgColor,
-  cursor: 'pointer',
-  border: '1px solid gray',
-  borderTop: 'none',
-  borderRight: 'none',
-});
+import Display from './Display';
+import Button from './Button';
 
 const Calculator = () => {
   const [value, setValue] = useState('0');
@@ -73,38 +60,6 @@ const Calculator = () => {
       <Button label="=" bgColor="orange" updateValue={() => updateValue('=')} />
     </div>
   );
-};
-
-const Display = (props) => {
-  const { value } = props;
-  return <div id="display" type="number">{ value }</div>;
-};
-
-Display.propTypes = {
-  value: PropTypes.string.isRequired,
-};
-
-const Button = (props) => {
-  const {
-    label,
-    bgColor,
-    width,
-    updateValue,
-  } = props;
-
-  return <button style={buttonStyle(bgColor, width)} type="button" onClick={() => updateValue()}>{ label }</button>;
-};
-
-Button.propTypes = {
-  updateValue: PropTypes.func.isRequired,
-  label: PropTypes.string.isRequired,
-  bgColor: PropTypes.string,
-  width: PropTypes.string,
-};
-
-Button.defaultProps = {
-  bgColor: 'white',
-  width: '100px',
 };
 
 export default Calculator;
