@@ -1,4 +1,3 @@
-/* eslint-disable max-classes-per-file */
 /* eslint-disable no-eval */
 /* eslint-disable max-len */
 
@@ -69,28 +68,28 @@ class Calculator extends React.Component {
     const { value } = this.state;
     return (
       <div>
-        <Input value={value} />
+        <Display value={value} />
         <Button label="AC" setValue={this.setValue} />
         <Button label="DEL" setValue={this.setValue} />
         <Button label="%" setValue={this.setValue} />
         <Button label="/" bgColor="orange" setValue={this.setValue} />
         <br />
-        <Button label={7} setValue={this.setValue} />
-        <Button label={8} setValue={this.setValue} />
-        <Button label={9} setValue={this.setValue} />
+        <Button label="7" setValue={this.setValue} />
+        <Button label="8" setValue={this.setValue} />
+        <Button label="9" setValue={this.setValue} />
         <Button label="*" bgColor="orange" setValue={this.setValue} />
         <br />
-        <Button label={4} setValue={this.setValue} />
-        <Button label={5} setValue={this.setValue} />
-        <Button label={6} setValue={this.setValue} />
+        <Button label="4" setValue={this.setValue} />
+        <Button label="5" setValue={this.setValue} />
+        <Button label="6" setValue={this.setValue} />
         <Button label="-" bgColor="orange" setValue={this.setValue} />
         <br />
-        <Button label={1} setValue={this.setValue} />
-        <Button label={2} setValue={this.setValue} />
-        <Button label={3} setValue={this.setValue} />
+        <Button label="1" setValue={this.setValue} />
+        <Button label="2" setValue={this.setValue} />
+        <Button label="3" setValue={this.setValue} />
         <Button label="+" bgColor="orange" setValue={this.setValue} />
         <br />
-        <Button label={0} setValue={this.setValue} width="200px" />
+        <Button label="0" setValue={this.setValue} width="200px" />
         <Button label="." setValue={this.setValue} />
         <Button label="=" bgColor="orange" setValue={this.setValue} />
       </div>
@@ -98,43 +97,29 @@ class Calculator extends React.Component {
   }
 }
 
-class Input extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    const { value } = this.props;
-    return <div id="input" type="number" placeholder="Input">{ value }</div>;
-  }
-}
-
-Input.propTypes = {
-  value: PropTypes.number.isRequired,
+const Display = (props) => {
+  const { value } = props;
+  return <div id="display" type="number">{ value }</div>;
 };
 
-class Button extends React.Component {
-  constructor(props) {
-    super(props);
-    this.setValue = this.setValue.bind(this);
-    this.state = {};
-  }
+Display.propTypes = {
+  value: PropTypes.string.isRequired,
+};
 
-  setValue(e) {
-    const { setValue } = this.props;
-    setValue(e.target.value);
-  }
+const Button = (props) => {
+  const {
+    label,
+    bgColor,
+    width,
+    setValue,
+  } = props;
 
-  render() {
-    const { label, bgColor, width } = this.props;
-    return <button style={buttonStyle(bgColor, width)} type="button" onClick={this.setValue} value={label}>{ label }</button>;
-  }
-}
+  return <button style={buttonStyle(bgColor, width)} type="button" onClick={() => setValue(label)} value={label}>{ label }</button>;
+};
 
 Button.propTypes = {
   setValue: PropTypes.func.isRequired,
-  label: PropTypes.isRequired,
+  label: PropTypes.string.isRequired,
   bgColor: PropTypes.string,
   width: PropTypes.string,
 };
