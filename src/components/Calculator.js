@@ -1,5 +1,6 @@
 /* eslint-disable max-classes-per-file */
 /* eslint-disable no-eval */
+/* eslint-disable max-len */
 
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -28,9 +29,10 @@ class Calculator extends React.Component {
   }
 
   setValue(newValue) {
+    const ops = ['+', '-', '*', '/', '%'];
     if (newValue === '=') {
       this.setState((oldState) => ({
-        value: `${eval(oldState.value)}`,
+        value: ops.includes(oldState.value[oldState.value.length - 1]) ? oldState.value : `${eval(oldState.value)}`,
       }));
     } else if (newValue === 'AC') {
       this.setState({
@@ -39,6 +41,22 @@ class Calculator extends React.Component {
     } else if (newValue === 'DEL') {
       this.setState((oldState) => ({
         value: oldState.value.length === 1 ? '0' : oldState.value.slice(0, -1),
+      }));
+    } else if (ops.includes(newValue)) {
+      this.setState((oldState) => ({
+        value: oldState.value === '0' || ops.includes(oldState.value[oldState.value.length - 1]) ? oldState.value : oldState.value + newValue,
+      }));
+    } else if (newValue === '.') {
+      let { value } = this.state;
+      let index = '';
+      for (let i = 0; i < value.length; i += 1) {
+        if (ops.includes(value[i])) {
+          index = value.lastIndexOf(value[i]) + 1;
+        }
+      }
+      value = value.substring(index);
+      this.setState((oldState) => ({
+        value: value.includes('.') ? oldState.value : oldState.value + newValue,
       }));
     } else {
       this.setState((oldState) => ({
