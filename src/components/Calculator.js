@@ -17,7 +17,7 @@ const buttonStyle = (bgColor, w) => ({
   borderTop: 'none',
   borderRight: 'none',
 });
-
+// I mean functions
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
