@@ -1,23 +1,8 @@
-input {
+#input {
   width: 386px;
   background-color: gray;
-  padding: 5px;
+  padding: 7px;
   text-align: right;
   font-size: 24px;
   color: white;
-}
-
-::placeholder {
-  color: white;
-  opacity: 0.4;
-}
-
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-input:focus {
-  outline: none;
-  border-bottom: 1px solid white;
 }
