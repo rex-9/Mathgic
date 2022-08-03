@@ -1,6 +1,5 @@
 /* eslint-disable max-classes-per-file */
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/prop-types */
+/* eslint-disable no-eval */
 
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -24,29 +23,26 @@ class Calculator extends React.Component {
     super(props);
     this.setValue = this.setValue.bind(this);
     this.state = {
-      value: 0,
-      solution: 0,
+      value: '0',
     };
   }
 
-  setValue(newValue, label) {
-    if (label === 'AC') {
-      console.log(`AC: ${label}`);
-      this.setState({
-        value: 0,
-        solution: 0,
-      });
-    } else if (label === '+') {
+  setValue(newValue) {
+    if (newValue === '=') {
       this.setState((oldState) => ({
-        solution: oldState.value + oldState.solution,
-        value: 0,
+        value: `${eval(oldState.value)}`,
       }));
-      console.log(this.state.solution);
-    } else {
-      console.log(`label: ${label}`);
-      const newVal = parseInt(newValue, 10);
+    } else if (newValue === 'AC') {
+      this.setState({
+        value: '0',
+      });
+    } else if (newValue === 'DEL') {
       this.setState((oldState) => ({
-        value: oldState.value === 0 ? newVal : oldState.value * 10 + newVal,
+        value: oldState.value.length === 1 ? '0' : oldState.value.slice(0, -1),
+      }));
+    } else {
+      this.setState((oldState) => ({
+        value: oldState.value === '0' ? newValue : oldState.value + newValue,
       }));
     }
   }
@@ -56,30 +52,29 @@ class Calculator extends React.Component {
     return (
       <div>
         <Input value={value} />
-        <br />
-        <Button label="AC" />
-        <Button label="+/-" />
-        <Button label="%" />
-        <Button label="%" bgColor="orange" />
+        <Button label="AC" setValue={this.setValue} />
+        <Button label="DEL" setValue={this.setValue} />
+        <Button label="%" setValue={this.setValue} />
+        <Button label="/" bgColor="orange" setValue={this.setValue} />
         <br />
         <Button label={7} setValue={this.setValue} />
         <Button label={8} setValue={this.setValue} />
         <Button label={9} setValue={this.setValue} />
-        <Button label="x" bgColor="orange" />
+        <Button label="*" bgColor="orange" setValue={this.setValue} />
         <br />
         <Button label={4} setValue={this.setValue} />
         <Button label={5} setValue={this.setValue} />
         <Button label={6} setValue={this.setValue} />
-        <Button label="-" bgColor="orange" />
+        <Button label="-" bgColor="orange" setValue={this.setValue} />
         <br />
         <Button label={1} setValue={this.setValue} />
         <Button label={2} setValue={this.setValue} />
         <Button label={3} setValue={this.setValue} />
-        <Button label="+" bgColor="orange" />
+        <Button label="+" bgColor="orange" setValue={this.setValue} />
         <br />
         <Button label={0} setValue={this.setValue} width="200px" />
-        <Button label="." />
-        <Button label="=" bgColor="orange" />
+        <Button label="." setValue={this.setValue} />
+        <Button label="=" bgColor="orange" setValue={this.setValue} />
       </div>
     );
   }
@@ -93,8 +88,7 @@ class Input extends React.Component {
 
   render() {
     const { value } = this.props;
-    console.log(`Input: ${value}`);
-    return <input id="input" type="number" placeholder="Input" value={value} />;
+    return <div id="input" type="number" placeholder="Input">{ value }</div>;
   }
 }
 
@@ -110,9 +104,8 @@ class Button extends React.Component {
   }
 
   setValue(e) {
-    this.props.setValue(e.target.value, this.props.label);
-    console.log(`button-value: ${e.target.value}`);
-    console.log(`button-label: ${this.props.label}`);
+    const { setValue } = this.props;
+    setValue(e.target.value);
   }
 
   render() {
@@ -122,7 +115,7 @@ class Button extends React.Component {
 }
 
 Button.propTypes = {
-  // setValue: PropTypes.func,
+  setValue: PropTypes.func.isRequired,
   label: PropTypes.isRequired,
   bgColor: PropTypes.string,
   width: PropTypes.string,
