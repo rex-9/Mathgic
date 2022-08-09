@@ -43,7 +43,7 @@ const Button = (props) => {
     updateValue,
   } = props;
 
-  return <button style={hover ? hoverStyle(bgColor, width) : buttonStyle(bgColor, width)} type="button" onClick={() => updateValue()} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>{ label }</button>;
+  return <button label={label} style={hover ? hoverStyle(bgColor, width) : buttonStyle(bgColor, width)} type="button" onClick={() => updateValue()} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>{ label }</button>;
 };
 
 Button.propTypes = {
