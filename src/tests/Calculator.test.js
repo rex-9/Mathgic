@@ -45,13 +45,13 @@ describe('Operations', () => {
 });
 
 test('full app rendering/navigating', async () => {
-    render(<App />)
+  render(<App />);
 
-    expect(screen.getByText(/Welcome to the World of Mathgic! ✨/i)).toBeInTheDocument()
+  expect(screen.getByText(/Welcome to the World of Mathgic! ✨/i)).toBeInTheDocument();
 
-    await userEvent.click(screen.getByText(/Calculator/i))
-    expect(screen.getByText(/Let's perform some MATHGIC !!!/i)).toBeInTheDocument()
+  await userEvent.click(screen.getByText(/Calculator/i));
+  expect(screen.getByText(/Let's perform some MATHGIC !!!/i)).toBeInTheDocument();
 
-    await userEvent.click(screen.getByText(/Quote/i))
-    expect(screen.getByText(/Mathematics is not about numbers, equations, computations or algorithms: it is about understanding. - William Paul Thurston/i)).toBeInTheDocument()
-  })
+  await userEvent.click(screen.getByText(/Quote/i));
+  expect(screen.getByText(/Mathematics is not about numbers, equations, computations or algorithms: it is about understanding. - William Paul Thurston/i)).toBeInTheDocument();
+});
