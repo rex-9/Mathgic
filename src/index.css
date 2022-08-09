@@ -1,3 +1,8 @@
+body {
+  font-family: 'Quicksand', Courier, monospace;
+  background-color: aliceblue;
+}
+
 #display {
   width: 386px;
   background-color: gray;
@@ -5,4 +10,67 @@
   text-align: right;
   font-size: 24px;
   color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav h1 {
+  font-size: 40px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  font-size: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+#home {
+  padding-left: 150px;
+}
+
+#home h1 {
+  background: -webkit-linear-gradient(left, rgb(43, 218, 218), rgb(160, 239, 3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#home p {
+  padding-top: 25px;
+  padding-left: 50px;
+  font-size: 25px;
+}
+
+#calculator-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px;
+  justify-content: space-around;
+}
+
+#calculator-container p {
+  font-size: 25px;
+}
+
+#calculator {
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, red,orange,yellow,green,blue,indigo,violet);
+  padding: 10px;
+}
+
+#quote {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
 }
