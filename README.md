@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Math-Magicians](https://htetnaing0814.github.io/Math-Magicians/)
+[Math-Magicians](https://mathgic.netlify.app/)
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ To get a local copy up and running:
 
 ### Deployment
 
-Here is the online version of [Math-Magicians](https://htetnaing0814.github.io/Math-Magicians/)
+Here is the online version of [Math-Magicians](https://mathgic.netlify.app/)
 
 ## Author1
 
