@@ -46,6 +46,13 @@ Here is the online version of [Math-Magicians](https://htetnaing0814.github.io/M
 👤 - Facebook: [Htet Naing](https://www.facebook.com/rexsoul1819)<br>
 👤 - Angelist: [Htet Naing](https://angel.co/u/htet-naing-2)<br>
 
+## Author2
+
+👤 - Github: [alanluqman](https://github.com/alanluqman)<br>
+👤 - LinkedIn: [Alan Luqman](https://www.linkedin.com/in/alan-luqman-61623b17a/)<br>
+
+
+
 ## 🤝 Contributions
 
 Contributions, issues, and feature requests are welcome!

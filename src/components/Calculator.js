@@ -44,6 +44,7 @@ const Calculator = () => {
       <p>Let&apos;s perform some MATHGIC !!!</p>
       <div id="calculator">
         <Display value={value} />
+        <br />
         <Button label="AC" updateValue={() => clearAll()} />
         <Button label="DEL" updateValue={() => deleteLastDigit()} />
         <Button label="%" updateValue={() => operations('%')} />
