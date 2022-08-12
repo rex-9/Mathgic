@@ -25,9 +25,9 @@ describe('Render the rest of the components', () => {
   test('Render routes', async () => {
     render(<App />);
 
-    expect(screen.getByText(/Math Magicians 🔮/i)).toMatchSnapshot(); // Nav component
+    expect(screen.getByText(/Math Magicians/i)).toMatchSnapshot(); // Nav component
 
-    expect(screen.getByText(/Welcome to the World of Mathgic! ✨/i)).toMatchSnapshot(); // Home component
+    expect(screen.getByText(/Welcome to the World of Mathgic!/i)).toMatchSnapshot(); // Home component
 
     fireEvent.click(screen.getByText(/Calculator/i));
     expect(screen.getByText(/Let's perform some MATHGIC !!!/i)).toMatchSnapshot(); // Calculator component
