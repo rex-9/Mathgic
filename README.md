@@ -1,6 +1,6 @@
-# Math Magicians
+# Mathgic
 
-> The amazing Math Magicians project will let you perform any basic
+> The amazing Mathgic project will let you perform any basic
 > math calculations you want to perform.
 
 ## Built With
@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Math-Magicians](https://mathgic.netlify.app/)
+[Mathgic](https://mathgic.netlify.app/)
 
 ## Getting Started
 
@@ -17,11 +17,11 @@ To get a local copy up and running:
 
 1. Clone this repository or download the zip folder:
 
-**`git clone https://github.com/HtetNaing0814/Math-Magicians.git`**
+**`git clone https://github.com/HtetNaing0814/Mathgic.git`**
 
 2. Navigate to the location of the folder in your machine:
 
-**`you@your-Pc-name:~$ cd Math-Magicians`**
+**`you@your-Pc-name:~$ cd Mathgic`**
 
 3. Open the project with VScode:
 
@@ -37,14 +37,14 @@ To get a local copy up and running:
 
 ### Deployment
 
-Here is the online version of [Math-Magicians](https://mathgic.netlify.app/)
+Here is the online version of [Mathgic](https://mathgic.netlify.app/)
 
 ## Author1
 
 👤 - Github: [@HtetNaing0814](https://github.com/HtetNaing0814/)<br>
 👤 - LinkedIn: [Htet Naing](https://www.linkedin.com/in/htetnaing0814/)<br>
 👤 - Facebook: [Htet Naing](https://www.facebook.com/rexsoul1819)<br>
-👤 - Angelist: [Htet Naing](https://angel.co/u/htet-naing-2)<br>
+👤 - Angelist: [Htet Naing](https://angel.co/u/htetnaing0814)<br>
 
 ## Author2
 
@@ -57,7 +57,7 @@ Here is the online version of [Math-Magicians](https://mathgic.netlify.app/)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check [issue page](https://github.com/HtetNaing0814/Math-Magicians/issues).
+Feel free to check [issue page](https://github.com/HtetNaing0814/Mathgic/issues).
 
 ## Show your support
 
