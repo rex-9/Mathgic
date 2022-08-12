@@ -1,8 +1,11 @@
 const Home = () => (
   <div id="home">
-    <h1>Welcome to the World of Mathgic! ✨</h1>
+    <div>
+      <h1>Welcome to the World of Mathgic! </h1>
+      <p>✨</p>
+    </div>
     <p>
-      In this world, you can perform any math operations using the Mathgic device.
+      &emsp;In this world, you can perform any math operations using the Mathgic device.
       <br />
       <br />
       {' '}
