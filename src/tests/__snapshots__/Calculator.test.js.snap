@@ -3,7 +3,7 @@
 exports[`Render the components of Calculator renders % Button component 1`] = `
 <button
   label="%"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   %
@@ -13,7 +13,7 @@ exports[`Render the components of Calculator renders % Button component 1`] = `
 exports[`Render the components of Calculator renders * Button component 1`] = `
 <button
   label="*"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: orange; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: orange; cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   *
@@ -23,7 +23,7 @@ exports[`Render the components of Calculator renders * Button component 1`] = `
 exports[`Render the components of Calculator renders + Button component 1`] = `
 <button
   label="+"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: orange; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: orange; cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   +
@@ -33,7 +33,7 @@ exports[`Render the components of Calculator renders + Button component 1`] = `
 exports[`Render the components of Calculator renders . Button component 1`] = `
 <button
   label="."
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   .
@@ -43,7 +43,7 @@ exports[`Render the components of Calculator renders . Button component 1`] = `
 exports[`Render the components of Calculator renders / Button component 1`] = `
 <button
   label="/"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: orange; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: orange; cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   /
@@ -53,7 +53,7 @@ exports[`Render the components of Calculator renders / Button component 1`] = `
 exports[`Render the components of Calculator renders = Button component 1`] = `
 <button
   label="="
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: orange; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: orange; cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   =
@@ -63,7 +63,7 @@ exports[`Render the components of Calculator renders = Button component 1`] = `
 exports[`Render the components of Calculator renders - Button component 1`] = `
 <button
   label="-"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: orange; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: orange; cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   -
@@ -73,7 +73,7 @@ exports[`Render the components of Calculator renders - Button component 1`] = `
 exports[`Render the components of Calculator renders 0 Button component 1`] = `
 <button
   label="0"
-  style="width: 200px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 200px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   0
@@ -83,7 +83,7 @@ exports[`Render the components of Calculator renders 0 Button component 1`] = `
 exports[`Render the components of Calculator renders 1 Button component 1`] = `
 <button
   label="1"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   1
@@ -93,7 +93,7 @@ exports[`Render the components of Calculator renders 1 Button component 1`] = `
 exports[`Render the components of Calculator renders 2 Button component 1`] = `
 <button
   label="2"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   2
@@ -103,7 +103,7 @@ exports[`Render the components of Calculator renders 2 Button component 1`] = `
 exports[`Render the components of Calculator renders 3 Button component 1`] = `
 <button
   label="3"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   3
@@ -113,7 +113,7 @@ exports[`Render the components of Calculator renders 3 Button component 1`] = `
 exports[`Render the components of Calculator renders 4 Button component 1`] = `
 <button
   label="4"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   4
@@ -123,7 +123,7 @@ exports[`Render the components of Calculator renders 4 Button component 1`] = `
 exports[`Render the components of Calculator renders 5 Button component 1`] = `
 <button
   label="5"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   5
@@ -133,7 +133,7 @@ exports[`Render the components of Calculator renders 5 Button component 1`] = `
 exports[`Render the components of Calculator renders 6 Button component 1`] = `
 <button
   label="6"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   6
@@ -143,7 +143,7 @@ exports[`Render the components of Calculator renders 6 Button component 1`] = `
 exports[`Render the components of Calculator renders 7 Button component 1`] = `
 <button
   label="7"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   7
@@ -153,7 +153,7 @@ exports[`Render the components of Calculator renders 7 Button component 1`] = `
 exports[`Render the components of Calculator renders 8 Button component 1`] = `
 <button
   label="8"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   8
@@ -163,7 +163,7 @@ exports[`Render the components of Calculator renders 8 Button component 1`] = `
 exports[`Render the components of Calculator renders 9 Button component 1`] = `
 <button
   label="9"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   9
@@ -173,7 +173,7 @@ exports[`Render the components of Calculator renders 9 Button component 1`] = `
 exports[`Render the components of Calculator renders AC Button component 1`] = `
 <button
   label="AC"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   AC
@@ -183,7 +183,7 @@ exports[`Render the components of Calculator renders AC Button component 1`] = `
 exports[`Render the components of Calculator renders DEL Button component 1`] = `
 <button
   label="DEL"
-  style="width: 100px; height: 50px; padding: 5px; font-size: 24px; background-color: white; cursor: pointer; border: 1px solid gray;"
+  style="width: 100px; height: 70px; color: white; padding: 5px; font-size: 24px; background-color: rgb(70, 71, 62); cursor: pointer; border: 1px solid gray;"
   type="button"
 >
   DEL
@@ -201,13 +201,13 @@ exports[`Render the components of Calculator renders Display component 1`] = `
 
 exports[`Render the rest of the components Render routes 1`] = `
 <h1>
-  Math Magicians 🔮
+  Math Magicians
 </h1>
 `;
 
 exports[`Render the rest of the components Render routes 2`] = `
 <h1>
-  Welcome to the World of Mathgic! ✨
+  Welcome to the World of Mathgic! 
 </h1>
 `;
 
