@@ -4,7 +4,8 @@ import '../index.css';
 
 const buttonStyle = (bgColor, w) => ({
   width: w == null ? '100px' : w,
-  height: '50px',
+  height: '70px',
+  color: 'white',
   padding: '5px',
   fontSize: '24px',
   backgroundColor: bgColor,
@@ -16,13 +17,13 @@ const buttonStyle = (bgColor, w) => ({
 
 const hoverStyle = (w) => ({
   width: w == null ? '100px' : w,
-  height: '50px',
+  height: '70px',
   padding: '5px',
   fontSize: '24px',
-  backgroundColor: 'lightgray',
-  color: 'red',
+  backgroundColor: 'white',
+  color: 'black',
   cursor: 'pointer',
-  border: '1px solid red',
+  border: '1px solid black',
 });
 
 const Button = (props) => {
@@ -54,7 +55,7 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  bgColor: 'white',
+  bgColor: '#46473E',
   width: '100px',
 };
 

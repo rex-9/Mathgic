@@ -1,14 +1,50 @@
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #home {
+    padding-top: 80px;
+    padding-right: 80px;
+  }
+
+  #quote {
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 30px;
+    height: 300px;
+  }
+}
+
+@font-face {
+  font-family: 'Digital';
+  src: local('Digital'), url(./assets/DS-DIGIB.TTF) format('woff');
+}
+
 body {
   font-family: 'Quicksand', Courier, monospace;
-  background-color: aliceblue;
+  color: white;
+  height: 100vh;
+  background: url('./assets/math-bg.jpg');
+  background-color: #ccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  margin: 0;
 }
 
 input {
+  font-family: 'Digital', Courier, monospace;
+  font-size: 40px;
+  height: 70px;
   width: 382px;
-  background-color: gray;
+  background-color: #0d3f35;
   padding: 7px;
   text-align: right;
-  font-size: 24px;
   color: white;
 }
 
@@ -17,13 +53,22 @@ input[type=number]::-webkit-inner-spin-button {
   margin: 0;
 }
 
-nav {
+nav,
+nav div {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 nav h1 {
+  background: -webkit-linear-gradient(left, red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+}
+
+nav p {
+  padding-left: 5px;
   font-size: 40px;
 }
 
@@ -40,7 +85,13 @@ li {
 }
 
 #home {
+  padding-top: 80px;
   padding-left: 150px;
+}
+
+#home div {
+  display: flex;
+  align-items: center;
 }
 
 #home h1 {
@@ -50,9 +101,8 @@ li {
 }
 
 #home p {
-  padding-top: 25px;
-  padding-left: 50px;
-  font-size: 25px;
+  padding-left: 5px;
+  font-size: 30px;
 }
 
 #calculator-container {
@@ -63,7 +113,7 @@ li {
 }
 
 #calculator-container p {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #calculator {
@@ -73,7 +123,7 @@ li {
 }
 
 #quote {
-  font-size: 25px;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
