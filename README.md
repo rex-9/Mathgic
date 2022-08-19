@@ -49,16 +49,6 @@ Here is the online version of [Mathgic](https://mathgic.netlify.app/)
 👤 - LinkedIn: [Htet Naing](https://www.linkedin.com/in/htetnaing0814/)<br>
 👤 - Facebook: [Htet Naing](https://www.facebook.com/rexsoul1819)<br>
 👤 - Angelist: [Htet Naing](https://angel.co/u/htetnaing0814)<br>
-<<<<<<< HEAD
-
-## Author2
-
-👤 - Github: [alanluqman](https://github.com/alanluqman)<br>
-👤 - LinkedIn: [Alan Luqman](https://www.linkedin.com/in/alan-luqman-61623b17a/)<br>
-
-
-=======
->>>>>>> deploy
 
 ## 🤝 Contributions
 
