@@ -9,7 +9,8 @@
 
 ## Screenshots
 
-![Mathgic](./src/assets/Mathgic.png)
+![Mathgic Calculator](./src/assets/Mathgic.png)
+![Mathgic Quote](./src/assets/quote.png)
 
 ## Live Demo
 
