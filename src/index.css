@@ -7,6 +7,12 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  body {
+    padding-bottom: 500px;
+  }
+}
+
 @font-face {
   font-family: 'Digital';
   src: local('Digital'), url(./assets/DS-DIGIB.TTF) format('woff');
@@ -112,7 +118,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
+  height: 71vh;
   padding-top: 80px;
   padding-left: 80px;
   padding-right: 80px;
@@ -160,4 +166,23 @@ li {
       #4e4376
     );
   box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+#about {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+}
+
+.whatsmail {
+  display: flex;
+  align-items: center;
+}
+
+.whatsmail p {
+  font-size: 16px;
 }
