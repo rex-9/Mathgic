@@ -91,6 +91,10 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
+.whatsmail p {
+  font-size: 16px;
+}
+
 #home p {
   padding-left: 5px;
   font-size: 30px;
@@ -183,6 +187,6 @@ li {
   align-items: center;
 }
 
-.whatsmail p {
-  font-size: 16px;
+i:hover {
+  transform: scale(1.2);
 }
