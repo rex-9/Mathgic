@@ -110,9 +110,54 @@ li {
 #quote {
   font-size: 30px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   height: 80vh;
   padding-top: 80px;
   padding-left: 80px;
   padding-right: 80px;
+}
+
+#quote p {
+  line-height: 50px;
+}
+
+.generateQuote {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.generateQuote:hover {
+  background-position: 100% 0;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.generateQuote:focus {
+  outline: none;
+}
+
+.generateQuote.bn25 {
+  background-image:
+    linear-gradient(
+      to right,
+      #29323c,
+      #485563,
+      #2b5876,
+      #4e4376
+    );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
