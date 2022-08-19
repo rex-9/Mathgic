@@ -7,6 +7,10 @@
 
 - React
 
+## Screenshots
+
+![Mathgic](./src/assets/Mathgic.png)
+
 ## Live Demo
 
 [Mathgic](https://mathgic.netlify.app/)
@@ -45,6 +49,7 @@ Here is the online version of [Mathgic](https://mathgic.netlify.app/)
 👤 - LinkedIn: [Htet Naing](https://www.linkedin.com/in/htetnaing0814/)<br>
 👤 - Facebook: [Htet Naing](https://www.facebook.com/rexsoul1819)<br>
 👤 - Angelist: [Htet Naing](https://angel.co/u/htetnaing0814)<br>
+<<<<<<< HEAD
 
 ## Author2
 
@@ -52,6 +57,8 @@ Here is the online version of [Mathgic](https://mathgic.netlify.app/)
 👤 - LinkedIn: [Alan Luqman](https://www.linkedin.com/in/alan-luqman-61623b17a/)<br>
 
 
+=======
+>>>>>>> deploy
 
 ## 🤝 Contributions
 
