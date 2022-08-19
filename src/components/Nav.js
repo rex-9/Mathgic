@@ -4,11 +4,15 @@ import { Link } from 'react-router-dom';
 const style = {
   color: 'cyan',
   textDecoration: 'none',
+  marginLeft: '20px',
+  marginRight: '20px',
 };
 
 const hoverStyle = {
   color: 'yellow',
   textDecoration: 'underline',
+  marginLeft: '20px',
+  marginRight: '20px',
 };
 
 const Nav = () => {

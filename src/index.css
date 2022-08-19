@@ -5,19 +5,6 @@
     align-items: center;
     justify-content: space-around;
   }
-
-  #home {
-    padding-top: 80px;
-    padding-right: 80px;
-  }
-
-  #quote {
-    padding-top: 80px;
-    padding-left: 80px;
-    padding-right: 80px;
-    font-size: 30px;
-    height: 300px;
-  }
 }
 
 @font-face {
@@ -72,9 +59,9 @@ nav p {
 
 ul {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  width: 500px;
   font-size: 20px;
 }
 
@@ -83,8 +70,8 @@ li {
 }
 
 #home {
-  padding-top: 80px;
-  padding-left: 150px;
+  padding: 50px 30px 0 30px;
+  height: 80vh;
 }
 
 #home div {
@@ -106,7 +93,7 @@ li {
 #calculator-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 80px;
+  padding: 50px 50px 100px 50px;
   justify-content: space-around;
 }
 
@@ -124,6 +111,8 @@ li {
   font-size: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 300px;
+  height: 80vh;
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
