@@ -22,7 +22,7 @@ To get a local copy up and running:
 
 1. Clone this repository or download the zip folder:
 
-**`git clone https://github.com/HtetNaing0814/Mathgic.git`**
+**`git clone https://github.com/rex-9/Mathgic.git`**
 
 2. Navigate to the location of the folder in your machine:
 
@@ -46,16 +46,16 @@ Here is the online version of [Mathgic](https://mathgic.netlify.app/)
 
 ## Author1
 
-👤 - Github: [@HtetNaing0814](https://github.com/HtetNaing0814/)<br>
-👤 - LinkedIn: [Htet Naing](https://www.linkedin.com/in/htetnaing0814/)<br>
-👤 - Facebook: [Htet Naing](https://www.facebook.com/rexsoul1819)<br>
-👤 - Angelist: [Htet Naing](https://angel.co/u/htetnaing0814)<br>
+👤 - Github: [@rex-9](https://github.com/rex-9/)<br>
+👤 - LinkedIn: [Htet Naing](https://www.linkedin.com/in/rex9/)<br>
+👤 - Facebook: [Htet Naing](https://www.facebook.com/htetnaing0814)<br>
+👤 - Angelist: [Htet Naing](https://angel.co/u/rex9)<br>
 
 ## 🤝 Contributions
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check [issue page](https://github.com/HtetNaing0814/Mathgic/issues).
+Feel free to check [issue page](https://github.com/rex-9/Mathgic/issues).
 
 ## Show your support
 
